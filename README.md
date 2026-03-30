@@ -196,9 +196,9 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	  printf("Nandhini\S");
+	  printf("Nandhini\n");
 	  printf("212224230174\n");
-	  printf("BTECH IT\n");
+	  printf("BTECH AI&DS\n");
 	  HAL_Delay(500);
     /* USER CODE BEGIN 3 */
   }
@@ -353,6 +353,7 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
+
 ```
 ## Output screen shots of Serial port utility   :
  
