@@ -91,31 +91,11 @@ UART transmits and receives data asynchronously, meaning there is no shared cloc
 
 ## STM 32 CUBE PROGRAM :
 ```
-/* USER CODE BEGIN Header */
-/**
-  ******************************************************************************
-  * @file           : main.c
-  * @brief          : Main program body
-  ******************************************************************************
-  * @attention
-  *
-  * Copyright (c) 2026 STMicroelectronics.
-  * All rights reserved.
-  *
-  * This software is licensed under terms that can be found in the LICENSE file
-  * in the root directory of this software component.
-  * If no LICENSE file comes with this software, it is provided AS-IS.
-  *
-  ******************************************************************************
-  */
-/* USER CODE END Header */
-/* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "stdio.h"
+#include"stdio.h"
 #if defined(__GNUC__)
 #define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
 #endif
-
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -197,9 +177,9 @@ int main(void)
   {
     /* USER CODE END WHILE */
 	  printf("Nandhini\n");
-	  printf("212224230174\n");
-	  printf("BTECH AI&DS\n");
-	  HAL_Delay(500);
+	  	printf("212224230174\n");
+	  	HAL_Delay(500);
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -353,6 +333,7 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
+
 
 ```
 ## Output screen shots of Serial port utility   :
